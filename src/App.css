@@ -1,0 +1,38 @@
+.input_message{
+  width: 60%;
+  display: flex;
+  background: white;
+  flex-direction: row;
+  /*  margin-top: 3em ;
+    margin-bottom: 3em;*/
+  justify-content: space-evenly;
+  padding: 10px;
+  margin-top: 10em;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid #e9e9e9;
+  z-index: 100;
+
+}
+
+.container{
+  margin-bottom: 6em;
+}
+.input_user{
+  font-weight: bold;
+  width: 85%;
+  font-size: 22px;
+}
+
+@media only screen and (max-width: 600px) {
+  .input_user{
+    font-weight: bold;
+    width: 60%;
+    font-size: 15px;
+  }
+
+  .input_message{
+    width: 86%;
+  }
+  
+}

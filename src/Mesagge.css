@@ -1,0 +1,87 @@
+.message{
+    padding: 3px;
+    margin-bottom: 1.3em;
+    padding: 1em;
+    width: fit-content;
+    height: fit-content;
+    max-width: 70%;
+    text-align: left;
+}
+
+.message_user{
+
+ margin-left: auto;
+ color: rgb(255, 255, 255);
+ text-align: left  !important;
+}
+
+.message_userCard{
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0b81ff  !important;
+}
+
+.message_guestCard{
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+
+    background-color: #e9e9e9  !important;
+}
+
+.App{
+   text-align: center;
+    margin: auto;
+    width: 60%;
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-message{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .App{
+        text-align: center;
+        margin: auto;
+        width: 95%;
+        padding-top: 3em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .message{
+        padding: 10px;
+        margin: 0px;
+        width: fit-content;
+    }
+    
+    
+    .message_user{
+     margin-left: auto;
+     color: rgb(255, 255, 255);
+     text-align: left  !important;
+    }
+
+
+    .text-message{
+        font-size: 12px;
+
+    }
+    .icon-msg>img{
+        width: 50px;
+        height: 50px;
+    }
+    .text-p{
+        font-size: 13px;
+   
+    }
+}
+
+  
