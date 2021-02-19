@@ -6,7 +6,7 @@ You can add more functionalities if you wish, it's all in your skills.
 
 *   ## Pre-requisites 📋
     * ✅ You will need to have Node.js >= 10.16 and npm >= 5.6 and a code editor like visual studio code installed.
-    * ✅ Necesitas también tener una cuenta de firebase, y crear una base de datos, posteriormente crear una coleccion para el usuario y el texto
+    * ✅ You also need to have a firebase account, and create a database, then create a collection for the user and the text.
 
 *   ## Execute the project ⚙️
     * Run npm -i 
